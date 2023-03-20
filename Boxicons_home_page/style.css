@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex{
+    display:flex;
+}
+:root{
+    --heading-color:rgba(0, 0, 0, 0.747);
+    --para-color:rgba(53, 53, 53, 0.808);
+    --font-size:1rem;
+}
+a:hover, a:active{
+    color: black !important;
+    font-size: 1.05rem !important;
+}
+
+/* Header */
+header{
+    align-items: center;
+    padding:5px 200px;
+    justify-content: space-between;
+    background-color: rgb(201 201 201 / 28%);
+}
+header #logo img{
+    height:50px;
+}
+#download{
+    color:white !important;
+    background-color: var(--heading-color);
+    font-weight: 600;
+    padding:5px 14px !important;
+    border-radius: 20px;
+}
+header #nav a{
+    padding:0px; 
+    margin:0px 15px;
+    font-size: var(--font-size);
+    color: var(--heading-color);
+    font-weight: 500;
+}
+/*INTRO...  */
+#intro{
+    padding:0px 200px;
+    padding-top: 50px;
+}
+ #intro h2{
+    font-size: 2.7rem;
+}
+#intro p{
+    font-size: 1.3rem;
+    padding:10px 0px;
+    color: var(--para-color);
+}
+/*BODY...  */
+
+/* side_bar  */
+#box{
+   position: sticky;
+   top:0px;
+}
+#side_bar{
+    position:absolute;
+    width: 240px;
+    left: 200px;
+    padding-top:75px;
+    flex-direction: column;
+    font-size: var(--font-size);
+}
+.heading{
+color: var(--para-color);
+font-weight: 600;
+padding-bottom: 9px;
+}
+.subhead{
+color:var(--para-color);
+padding-bottom:7px;
+padding-left:40px;
+}
+
+/*Article  */
+article{
+    margin-left:450px;
+    margin-right:220px;
+    margin-top:70px;
+}
+
+article .heading1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom:12px;
+    color: rgba(0, 0, 0, 0.842);
+}
+.padding{
+    padding-bottom:12px !important;
+}
+article .heading2{
+    padding-bottom:2px;
+    color:var(--heading-color);
+    font-size:1.3rem;
+    font-weight: 400;
+}
+article .para{
+padding-bottom: 29px;
+color: var(--para-color);
+font-size: 1.05rem;
+
+}
+
+#code{
+font-family:monospace;
+background-color:rgb(201 201 201 / 28%) ;
+margin:15px 0px;
+margin-right:20px;
+padding:12px 17px;
+font-size:0.95rem;
+flex-direction: column;
+color:var(--para-color)
+}
+
+.blue{
+    color: rgb(60 138 255);
+}
+.red{
+    color:rgba(255, 45, 45, 0.7);
+}
+
+/*Footer  */
+footer{
+    margin-top:30px;
+    border-top:1px solid #8080803b;
+    padding:20px 160px;
+    justify-content: space-between;
+    align-items:center;
+}
+footer div img{
+    padding-right:60px;
+    height:50px;
+}
