@@ -1,0 +1,127 @@
+
+/* Importing the font */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Bellefair', serif;
+    color: white;
+}
+
+:root{
+    --background-color: #0B0D17;
+    --blue-color: #D0D6F9;
+    --yellow-color: #FFFFFF;
+    --hover-color: rgba(255, 255, 255);
+    --body-side-margin: 200px;
+    font-size: 16.5px;
+}
+
+@media only screen and (max-width: 550px){
+    :root{
+        font-size: 14.5px !important;
+    }
+}
+
+body{
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.heading-1{
+    font-size: 9.2rem;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.heading-2{
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+.heading-3{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 12px 0px;
+}
+.heading-4{
+    font-size: 2rem;  
+    text-transform: uppercase;
+}
+.heading-5{
+    font-size: 1.75rem;
+    letter-spacing: 4.75px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.subhead-1{
+    font-size: 1.75rem;
+}
+
+.subhead-2{
+    font-size: 0.875rem;
+    letter-spacing: 2.35px;
+    padding: 10px 0px;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.nav-text, #nav-text span{
+    font-size: 1rem;
+    letter-spacing: 2.5px;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.description{
+    font-size: 1.125rem;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+section, #pick-dest{
+    margin: 25px var(--body-side-margin);
+}
+
+#pick-dest span:first-child{
+    font-weight: 600;
+    padding-right: 15px;
+    color: rgba(199, 199, 199, 0.753);
+}
+
+@media only screen and (max-width: 550px){
+    .heading-1{
+        font-size: 8rem !important;
+    }
+    .heading-2{
+        font-size: 4rem !important;
+    }
+    .heading-3{
+        font-size: 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .heading-1{
+        font-size: 7rem !important;
+    }
+}
